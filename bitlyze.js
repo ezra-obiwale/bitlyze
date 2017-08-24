@@ -11,6 +11,8 @@
         };
         $.extend(config, settings);
         this.each(function () {
+            // already shortened: cancel
+            if ($(this).hasClass('.bitlyzed')) return;
             var $link = $(this),
                 url = $link.data(config.urlDataKey);
             // url has been/is being shortened
