@@ -1,6 +1,12 @@
 # bitlyze
 Shorten long urls with Bitly
 
+## Features
+
+- Shortens url (of course)
+- Saves shortened url for subsequent reuse
+- Simple to use
+
 ## Usage
 
 ```html
