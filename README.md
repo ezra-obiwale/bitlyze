@@ -25,8 +25,8 @@ Shorten long urls with Bitly
 The full config object is:
 
 ```js
-{`
-    bitlyUrl: 'https://api-ssl.bitly.com/v3/shorten',``
+{
+    bitlyUrl: 'https://api-ssl.bitly.com/v3/shorten',
     accessToken: '',
     urlDataKey: 'url',
     callback: function (short_url) { }
@@ -38,4 +38,4 @@ is the element.
 
 ## License
 
-MIT``
+MIT
