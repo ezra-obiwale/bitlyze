@@ -34,13 +34,19 @@ The full config object is:
 {
     bitlyUrl: 'https://api-ssl.bitly.com/v3/shorten',
     accessToken: '',
-    urlDataKey: 'url',
+    urlAttr: 'data-url',
     callback: function (short_url) { }
 }
 ```
 
 The callback is called on each of the elements, therefore the `context` (`this`)
 is the element.
+
+## Changelog
+
+v1.1
+
+- changed option `urlDataKey` to `urlAttr` with default as `data-url`
 
 ## License
 
